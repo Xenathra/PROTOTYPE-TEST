@@ -1,0 +1,78 @@
+body{
+    color: #3c3c3c;
+    font-family: "museo-sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.72;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 150px;
+    background-image: url(../img/home.jpg) ;
+    background-size: cover;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.wrapper{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+/* form-start */
+form{
+    position: fixed;
+    border-radius:15;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block; 
+    border: none; 
+    box-sizing: border-box;
+    background-color: rgba(230, 230, 230, 0.1);
+    border-bottom: 1px solid #3c3c3c;
+    color: #000000; 
+}
+
+button {
+    background-color: #4c4c4c;             
+    color: white;
+    border-radius: 15px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font: 14px;
+}
+/* form-end */
+
+/* button animation-start */
+button:hover { /* hover on */
+    transition: 1s ease-in-out;
+    background: #bfbfbf;
+    color: #3c3c3c;
+}
+
+button { /* hover off */
+    transition: 1s ease-out;
+}
+
+span.psw{
+    float: right;
+    padding-top: 16px;
+
+}
+
+span a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* login erromsg-start */
+.errormsg{
+    color: red;
+}
+/* login erromsg-end */
